@@ -1,0 +1,11 @@
+group simple;
+
+workbook( sheets ) ::=<< 
+\<workbook\>
+  <sheets; separator="\n">
+\</workbook\>
+>>
+
+sheet( name ) ::=<<
+\<sheet name="<name>"/\>
+>>
